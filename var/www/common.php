@@ -55,8 +55,11 @@ opcache.save_comments = 1
 opcache.optimization_level = 0x7fffffff
 opcache.validate_permission = 1
 opcache.validate_root = 1
+<<<<<<< HEAD
 opcache.jit_buffer_size = 64M
 session.use_strict_mode = 1
+=======
+>>>>>>> parent of 67cea03... Enable strict session id mode
 ';
 const NGINX_DEFAULT = 'server {
 	listen unix:/var/run/nginx/suspended backlog=2048;
